@@ -5,7 +5,7 @@
 # Get required ZIP file from: https://access.redhat.com/jbossnetwork/restricted/softwareDownload.html?softwareId=32483&product=appplatform
 #
 #
-FROM jboss/base
+FROM jmorales/jboss-base
 ADD files/jboss-eap-6.3.0.zip /home/jboss/
 RUN unzip /home/jboss/jboss-eap-6.3.0.zip
 

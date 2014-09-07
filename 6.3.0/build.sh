@@ -7,4 +7,4 @@ then
    exit 255
 fi
 
-docker build --rm -t jboss/eap:6.3.0  .
+docker build --rm -t jmorales/jboss-eap:6.3.0  .
